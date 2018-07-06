@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Photon",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Photon by HTML5 UP"
+    title: "Atheneum",
+    author: "David Rivas",
+    description: "Landing page for Atheneum NotebooksP"
   },
   pathPrefix: '/',
   plugins: [

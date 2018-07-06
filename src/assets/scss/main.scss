@@ -937,6 +937,7 @@
 		@include dark(#4686a0);
 		background-attachment:	fixed,							fixed,							fixed;
 		background-image:		url('../images/overlay2.png'),		url('../images/overlay3.svg'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
+		// background-image:		url('../images/overlay2.png'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
 		background-position:	top left,						center center,					center center;
 		background-size:		auto,							cover,							cover;
 		overflow: hidden;
@@ -951,6 +952,7 @@
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 		}
 
+		// TODO: Fix this SOMETHING so that we don't need to tweak the rule to the action buttons
 		.actions {
 			margin: (_size(element-margin) * 1.25) 0 0 0;
 			position: relative;
@@ -959,6 +961,7 @@
 				background: _palette(dark, border);
 				content: '';
 				height: 100vh;
+				// left: 49.5%; // Massive hack to get the line to center
 				left: 50%;
 				position: absolute;
 				top: 100%;

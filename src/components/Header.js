@@ -5,13 +5,19 @@ class Header extends React.Component {
         return (
             <section id="header">
                 <div className="inner">
-                    <span className="icon major fa-cloud"></span>
-                    <h1>Hi, I'm <strong>Photon</strong>, another fine<br />
-                    little freebie from <a href="http://html5up.net">HTML5 UP</a>.</h1>
-                    <p>Accumsan feugiat mi commodo erat lorem ipsum, sed magna<br />
-                    lobortis feugiat sapien sed etiam volutpat accumsan.</p>
+                    <span className="icon major fa-book"></span>
+                    <h1>
+                        Welcome to <strong>Atheneum</strong><br />
+                        Trouble free Notebook hosting at scale
+                    </h1>
+                    <p>
+                        Easy, secure, Jupyter notebooks in the cloud.<br />
+                        Get started now.
+                    </p>
                     <ul className="actions">
-                        <li><a href="#one" className="button scrolly">Discover</a></li>
+                        <li><a href="#one" className="button scrolly">About</a></li>
+                        <li><a href="https://atheneumnb.io" className="button">Signup</a></li>
+                        <li><a href="https://atheneumnb.io" className="button">Log In</a></li>
                     </ul>
                 </div>
             </section>

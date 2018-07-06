@@ -19,10 +19,17 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>
+                                    Finally, keep notebooks <br />
+                                    without managing infrastructure.
+                                </h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
+                            <p>
+                                Keep as many noteooks as you need, manage data on the notebook file system, 
+                                install packages as needed, and never worry about backups, servers, virtual machines, 
+                                containers, or security. <br />
+                                It's about time.
+                            </p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="" /></span>
@@ -35,7 +42,7 @@ class Homepage extends React.Component {
                         <div className="col-6">
                             <ul className="major-icons">
                                 <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-bolt"></span></li>
+                                <li><span className="icon style2 major fa-github"></span></li>
                                 <li><span className="icon style3 major fa-camera-retro"></span></li>
                                 <li><span className="icon style4 major fa-cog"></span></li>
                                 <li><span className="icon style5 major fa-desktop"></span></li>

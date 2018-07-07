@@ -15,20 +15,21 @@ class Homepage extends React.Component {
             <div>
                 <Helmet title={siteTitle} />
 
-                <section id="one" className="main style1">
+                <section id="tag" className="main style1">
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
                                 <h2>
-                                    Finally, keep notebooks <br />
+                                    Finally, develop and share your notebooks 
                                     without managing infrastructure.
                                 </h2>
                             </header>
                             <p>
-                                Keep as many noteooks as you need, manage data on the notebook file system, 
-                                install packages as needed, and never worry about backups, servers, virtual machines, 
-                                containers, or security. <br />
-                                It's about time.
+                                Keep your data science in the cloud. Python 3 and R available online.
+                                Keep as many notebooks as you need, manage data on the notebook file system, 
+                                install packages as needed, and never worry about backups, servers, clusters, 
+                                containers, auth, or security. <br />
+                                <strong>It's about time.</strong>
                             </p>
                         </div>
                         <div className="col-6">
@@ -37,61 +38,87 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="two" className="main style2">
+                <section id="overview" className="main style2">
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
                                 <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-github"></span></li>
-                                <li><span className="icon style3 major fa-camera-retro"></span></li>
-                                <li><span className="icon style4 major fa-cog"></span></li>
-                                <li><span className="icon style5 major fa-desktop"></span></li>
-                                <li><span className="icon style6 major fa-calendar"></span></li>
+                                <li><span className="icon style2 major fa-server"></span></li>
+                                <li><span className="icon style3 major fa-cog"></span></li>
+                                <li><span className="icon style4 major fa-github"></span></li>
+                                <li><span className="icon style5 major fa-shield"></span></li>
+                                <li><span className="icon style6 major fa-folder"></span></li>
                             </ul>
                         </div>
                         <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>Atheneum Jupyter Notebooks</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                            <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+                            <p>
+                                Everything from enterprise data science and to student labs.
+                            </p>
+                            <p>
+                                <strong>Python</strong> supoort includes packages: Pandas, Scipy, Scikit-learn, Scikit-image, 
+                                Sqlalchemy  and many others. Also includes Facets and Ipywidgets.
+                            </p>
+                            <p>
+                                <strong> R</strong> support including <a href="www.tidyverse.org">Tidyverse</a> packges, 
+                                as wel as devtools, shiny, markdown, caret and many others.
+                            </p>
+                            <p>
+                                Notebooks default to the 
+                                <a href="http://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-notebook"> jupyter/datascience-notebook. </a> < br/>
+                                Install additional packages as needed<br /> 
+                                Coming soon: Spark, Tensorflow and JupyterLab!<br />
+                                Git installed and full git GUI-based for easy github integration coming. 
+                                Depending on plan, storage and CPU requirements are easily tailored.
+                                Shared data storage coming.
+                            </p>
+                            <p>
+                               Servers are securely isolated from each other ensuring and connections are HTTPS.
+                            </p>
                         </div>
                     </div>
                 </section>
 
-                <section id="three" className="main style1 special">
+                <section id="plans" className="main style1 special">
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Adipiscing amet consequat</h2>
+                                <h2>Plans and Pricing</h2>
                             </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+                            <h3>Limited Introductory Pricing</h3>
+                            <p>Get your notebooks in the cloud now!</p>
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            {/* <span className="image fit"><img src={pic02} alt="" /></span> */}
+                            <h3>Student and Individual</h3>
+                            <p>
+                                With 10GB of storage, 1MB of notebook server memory.
+                                A perfect solution for personal projects, labs, and getting started.
+                            </p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Free</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
+                            {/* <span className="image fit"><img src={pic03} alt="" /></span> */}
+                            <h3>Data Scientist</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">$25 / Month</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            {/* <span className="image fit"><img src={pic04} alt="" /></span> */}
+                            <h3>Enterprise</h3>
+                            <p>
+                                Deployed in a pricate cloud and 
+                                including multiple bespoke managed notebook images and CPU/Memory/Storage profiles.
+                            </p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Contact Us</a></li>
                             </ul>
                         </div>
 
@@ -101,12 +128,11 @@ class Homepage extends React.Component {
                 <section id="four" className="main style2 special">
                     <div className="container">
                         <header className="major">
-                            <h2>Ipsum feugiat consequat?</h2>
+                            <h2>Get started now!</h2>
                         </header>
-                        <p>Sed lacus nascetur ac ante amet sapien.</p>
+                        <p>Isn't it time to stop wasting time managing your notebook servers?</p>
                         <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href="https://atheneumnb.io" className="button special">Sign Up</a></li>
                         </ul>
                     </div>
                 </section>

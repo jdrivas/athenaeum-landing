@@ -8,14 +8,14 @@ class Header extends React.Component {
                     <span className="icon major fa-book"></span>
                     <h1>
                         Welcome to <strong>Atheneum</strong><br />
-                        Trouble free Notebook hosting at scale
+                        Trouble free online notebooks at scale
                     </h1>
                     <p>
-                        Easy, secure, Jupyter notebooks in the cloud.<br />
+                        Easy, secure, online computing and data science with Jupyter notebooks in the cloud.<br />
                         Get started now.
                     </p>
                     <ul className="actions">
-                        <li><a href="#one" className="button scrolly">About</a></li>
+                        <li><a href="#overview" className="button scrolly">About</a></li>
                         <li><a href="https://atheneumnb.io" className="button">Signup</a></li>
                         <li><a href="https://atheneumnb.io" className="button">Log In</a></li>
                     </ul>

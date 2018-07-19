@@ -52,7 +52,7 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-6">
                             <header className="major">
-                                <h2>Atheneum Jupyter Notebooks</h2>
+                                <h2>Athenaeum Jupyter Notebooks</h2>
                             </header>
                             <p>
                                 Everything from enterprise data science and to student labs.

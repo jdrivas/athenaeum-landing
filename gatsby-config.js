@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Atheneum",
+    title: "Athenaeum",
     author: "David Rivas",
-    description: "Landing page for Atheneum NotebooksP"
+    description: "Landing page for Athenaeum NotebooksP"
   },
   pathPrefix: '/',
   plugins: [

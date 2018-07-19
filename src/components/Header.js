@@ -16,7 +16,7 @@ class Header extends React.Component {
                     </p>
                     <ul className="actions">
                         <li><a href="#overview" className="button scrolly">About</a></li>
-                        <li><a href="https://atheneumnb.io" className="button">Signup</a></li>
+                        <li><a href="https://atheneumnb.io" className="button">Sign Up</a></li>
                         <li><a href="https://atheneumnb.io" className="button">Log In</a></li>
                     </ul>
                 </div>

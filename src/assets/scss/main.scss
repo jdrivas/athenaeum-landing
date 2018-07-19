@@ -979,7 +979,7 @@
 
 			.actions {
 				@include vendor('transition', 'transform 1.25s ease');
-				@include vendor('transition-delay', '1s');
+				@include vendor('transition-delay', '.5s');
 				@include vendor('transform', 'translateY(0)');
 				opacity: 1;
 			}

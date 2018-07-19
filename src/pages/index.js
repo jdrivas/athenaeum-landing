@@ -134,6 +134,7 @@ class Homepage extends React.Component {
                         <p>Isn't it time to stop wasting time managing your notebook servers?</p>
                         <ul className="actions uniform">
                             <li><a href="https://atheneumnb.io" className="button special">Sign Up</a></li>
+                            <li><a href="https://atheneumnb.io" className="button special">Log In</a></li>
                         </ul>
                     </div>
                 </section>

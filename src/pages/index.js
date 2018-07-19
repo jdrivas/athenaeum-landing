@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/Jupyter-notebook.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
@@ -20,15 +20,16 @@ class Homepage extends React.Component {
                         <div className="col-6">
                             <header className="major">
                                 <h2>
-                                    Finally, develop and share your notebooks 
-                                    without managing infrastructure.
+                                    Finally, notebooks as a service.
                                 </h2>
                             </header>
                             <p>
                                 Keep your data science in the cloud. Python 3 and R available online.
                                 Keep as many notebooks as you need, manage data on the notebook file system, 
                                 install packages as needed, and never worry about backups, servers, clusters, 
-                                containers, auth, or security. <br />
+                                containers, auth, or security. 
+                                <br />
+                                <br />
                                 <strong>It's about time.</strong>
                             </p>
                         </div>
@@ -69,7 +70,7 @@ class Homepage extends React.Component {
                                 Notebooks default to the 
                                 <a href="http://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-notebook"> jupyter/datascience-notebook. </a> < br/>
                                 Install additional packages as needed<br /> 
-                                Coming soon: Spark, Tensorflow and JupyterLab!<br />
+                                <strong>Coming soon:</strong> Spark, Tensorflow and JupyterLab!<br />
                                 Git installed and full git GUI-based for easy github integration coming. 
                                 Depending on plan, storage and CPU requirements are easily tailored.
                                 Shared data storage coming.

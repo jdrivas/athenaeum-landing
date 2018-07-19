@@ -55,7 +55,7 @@ class Homepage extends React.Component {
                                 <h2>Athenaeum Jupyter Notebooks</h2>
                             </header>
                             <p>
-                                Everything from enterprise data science and to student labs.
+                                Everything from enterprise data science to student labs.
                             </p>
                             <p>
                                 <strong>Python</strong> supoort includes packages: Pandas, Scipy, Scikit-learn, Scikit-image, 

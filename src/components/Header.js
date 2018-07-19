@@ -7,7 +7,7 @@ class Header extends React.Component {
                 <div className="inner">
                     <span className="icon major fa-book"></span>
                     <h1>
-                        Welcome to <strong>Atheneum</strong><br />
+                        Welcome to <strong>Athenaeum</strong><br />
                         Trouble free online notebooks at scale
                     </h1>
                     <p>

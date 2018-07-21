@@ -1,5 +1,7 @@
 import React from 'react'
 
+import {login_url, signin_url} from "../helpers/urls"
+
 class Header extends React.Component {
     render() {
         return (
@@ -16,8 +18,8 @@ class Header extends React.Component {
                     </p>
                     <ul className="actions">
                         <li><a href="#overview" className="button scrolly">About</a></li>
-                        <li><a href="https://atheneumnb.io" className="button">Sign Up</a></li>
-                        <li><a href="https://atheneumnb.io" className="button">Log In</a></li>
+                        <li><a href={login_url()} className="button">Sign Up</a></li>
+                        <li><a href={signin_url()} className="button">Log In</a></li>
                     </ul>
                 </div>
             </section>

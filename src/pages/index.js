@@ -2,6 +2,8 @@ import React from "react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
+import {login_url, signin_url} from "../helpers/urls"
+
 import pic01 from '../assets/images/Jupyter-notebook.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
@@ -133,8 +135,8 @@ class Homepage extends React.Component {
                         </header>
                         <p>Isn't it time to stop wasting time managing your notebook servers?</p>
                         <ul className="actions uniform">
-                            <li><a href="https://atheneumnb.io" className="button special">Sign Up</a></li>
-                            <li><a href="https://atheneumnb.io" className="button special">Log In</a></li>
+                            <li><a href={signin_url()} className="button special">Sign Up</a></li>
+                            <li><a href={login_url()} className="button special">Log In</a></li>
                         </ul>
                     </div>
                 </section>

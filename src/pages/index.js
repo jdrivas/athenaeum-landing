@@ -22,11 +22,11 @@ class Homepage extends React.Component {
                         <div className="col-6">
                             <header className="major">
                                 <h2>
-                                    Finally, notebooks as a service.
+                                    Notebooks as a service.
                                 </h2>
                             </header>
                             <p>
-                                Keep your data science in the cloud. Python 3 and R available online.
+                                Data science in the cloud. Python 3 and R available online.
                                 Keep as many notebooks as you need, manage data on the notebook file system, 
                                 install packages as needed, and never worry about backups, servers, clusters, 
                                 containers, auth, or security. 
@@ -58,7 +58,7 @@ class Homepage extends React.Component {
                                 <h2>Athenaeum Jupyter Notebooks</h2>
                             </header>
                             <p>
-                                Everything from enterprise data science to student labs.
+                                Enterprise data science to student labs.
                             </p>
                             <p>
                                 <strong>Python</strong> supoort includes packages: Pandas, Scipy, Scikit-learn, Scikit-image, 
@@ -98,7 +98,7 @@ class Homepage extends React.Component {
                             {/* <span className="image fit"><img src={pic02} alt="" /></span> */}
                             <h3>Student and Individual</h3>
                             <p>
-                                With 10GB of storage, 1MB of notebook server memory.
+                                With 1GB of local storage, 1MB of notebook server memory.
                                 A perfect solution for personal projects, labs, and getting started.
                             </p>
                             <ul className="actions">
@@ -108,7 +108,10 @@ class Homepage extends React.Component {
                         <div className="col-4">
                             {/* <span className="image fit"><img src={pic03} alt="" /></span> */}
                             <h3>Data Scientist</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <p>
+                                10GB of initial notebook storage, 2GB of initial notebook server memory. 
+                                Additional storage, memory and compute allocatable from the GUI as needed. 
+                            </p>
                             <ul className="actions">
                                 <li><a href="#" className="button">$25 / Month</a></li>
                             </ul>
@@ -117,8 +120,8 @@ class Homepage extends React.Component {
                             {/* <span className="image fit"><img src={pic04} alt="" /></span> */}
                             <h3>Enterprise</h3>
                             <p>
-                                Deployed in a pricate cloud and 
-                                including multiple bespoke managed notebook images and CPU/Memory/Storage profiles.
+                                Deployed in a private cloud with multiple, bespoke, notebook images. Shared data with custom
+                                CPU, Memory, and Storage profiles.
                             </p>
                             <ul className="actions">
                                 <li><a href="#" className="button">Contact Us</a></li>

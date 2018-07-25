@@ -22,7 +22,7 @@ class Homepage extends React.Component {
                         <div className="col-6">
                             <header className="major">
                                 <h2>
-                                    Notebooks as a service.
+                                    Notebooks as a service
                                 </h2>
                             </header>
                             <p>
